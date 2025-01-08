@@ -1,6 +1,6 @@
 import http from 'http'
 import fs from 'fs'
-import { routes } from './itemController';
+import { routes } from './itemController.js';
 
 
 const server =http.createServer(routes);
