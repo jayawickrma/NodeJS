@@ -3,9 +3,8 @@ import fs from 'fs'
 
 const server =http.createServer((req,res)=>{
     console.log(req.url,req.method)
-    fs.writeFileSync('demo.txt',("the requerted methos is :-"+req.method))
-    process.exit();
-
+    res.getHeader('content-type','text/html')
+    res.write('<html><head><h1>hello world</h1></head></html>')
 });
 
 
