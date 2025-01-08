@@ -4,7 +4,7 @@
   "main": "Demo.js",
   "type": "module",
   "scripts": {
-    "start": "node Demo.js",
+    "start": "node Demo",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
